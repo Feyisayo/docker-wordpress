@@ -1,6 +1,6 @@
 This is the base docker-compose set up I use for WordPress sites. It contains images for apache-php, mysql and mailhog.
 
-**How To Use
+**How To Use**
 
 - Install docker-compose. See https://docs.docker.com/compose/
 
