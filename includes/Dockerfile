@@ -23,4 +23,4 @@ ADD ./php.ini /usr/local/etc/php
 RUN apt install php5-mysql -y
 
 # Give ownership of webroot to apache
-chown -R www-data:www-data /var/www/html
+RUN chown -R www-data:www-data /var/www/html
