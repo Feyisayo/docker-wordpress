@@ -20,7 +20,7 @@ This is the base docker-compose set up I use for WordPress sites. It contains im
 
 - In your browser go to http://localhost
 
-- You can also add an entry to your hosts files (that's at `/etc/hosts` on debian-based systems) to customize the URL for the wordpress site.
+- You can also add an entry to your hosts files (that's at `/etc/hosts` on debian-based systems) to customize the URL for the wordpress site. The default friendly name is `wordpress.local`. You can change this from the apache configuration file at `includes/000-default.conf`
 
 - Access the mailhog app by going to http://localhost:8025
 

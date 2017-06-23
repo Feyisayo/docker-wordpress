@@ -5,10 +5,6 @@ services:
     build: ./includes
     volumes:
       - ./src/:/var/www/html
-      # Mount local drush installation
-      - ./includes/drush:/usr/local/bin/drush
-      # Mount local composer installation
-      - ./includes/composer:/usr/local/bin/composer
     ports:
       - 80:80
 
