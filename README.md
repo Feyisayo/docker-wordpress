@@ -1,4 +1,4 @@
-This is the base docker-compose set up I use for WordPress sites. It contains images for apache-php, mysql and mailhog.
+This is the base docker-compose set up I use for WordPress sites. It contains images for apache-php, mysql, mailhog and the very useful wp-cli
 
 **How To Use**
 
@@ -15,6 +15,8 @@ This is the base docker-compose set up I use for WordPress sites. It contains im
   `define('DB_PASSWORD', 'root');`
 
   `define('DB_HOST', 'mysql-server');`
+
+- Run `docker-compose build`
 
 - Run `docker-compose up -d` and voila!! you're good to go
 
