@@ -24,3 +24,6 @@ RUN apt install php5-mysql -y
 
 # Give ownership of webroot to apache
 RUN chown -R www-data:www-data /var/www/html
+
+# Add WP-CLI
+ADD ./wp /usr/local/bin/wp
